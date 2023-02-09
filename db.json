@@ -1,0 +1,19 @@
+{
+  "builds": [
+    {
+      "id": 1,
+      "name": "sara-1",
+      "adress": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

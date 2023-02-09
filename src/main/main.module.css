@@ -1,0 +1,91 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainContent{
+    width: 95%; 
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.mainContent img{
+    width: 100%;
+    height: 100%;
+}
+
+.imgContent{
+    width: 80%;
+    height: 90vh;   
+    background-image: url("https://blog.spoongraphics.co.uk/wp-content/uploads/2020/08/post-thumbnail-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.detailContent{
+    width: 20%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailContentInto{
+    width: 80%;
+    text-align: center;
+}
+
+.detailContentInto p{
+    margin: 20px 0;
+}
+
+.mapSelectorText{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.addressText{
+    font-size: 22px;
+}
+
+.buildApiContent p{
+    font-size: 18px;
+}
+
+.imgDivTag{
+    width: 100%;
+    height: 100%;
+}
+
+.rightImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.nextBtn{
+    border: 2px solid gray;
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+    padding: 12px 28px;
+    transition: all .3s ease-in-out;
+    border-radius: 12px;
+}
+
+.nextBtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+

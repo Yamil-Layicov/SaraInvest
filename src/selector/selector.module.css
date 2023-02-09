@@ -1,0 +1,25 @@
+.selectorText{
+    background-color: #93C6E7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectorText span{
+    background-color: white;
+    padding: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+}
+
+.selectorText span:hover{
+    background-color: #567189;
+    color: white;
+}
+
+.span{
+    border-right: 1px solid black;
+}
