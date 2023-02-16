@@ -1,19 +1,255 @@
 {
-  "builds": [
+  "Mertebe-1": [
     {
-      "id": 1,
-      "name": "sara-1",
-      "adress": "typicode"
+      "roomNo": "25",
+      "company": "Sara Logistic MMC",
+      "owner": "",
+      "sahe": "303,60",
+      "roomType": "Ofis",
+      "id": "1"
+    },
+    {
+      "roomNo": "6",
+      "company": "Mirzəyev Eldəniz Ilham",
+      "owner": "",
+      "sahe": "64,00",
+      "roomType": "Ofis",
+      "id": "2"
+    },
+    {
+      "roomNo": "2",
+      "company": "Səmayə Co LTD MMC, Səmayə Logistic MMC",
+      "owner": "",
+      "sahe": "375,00",
+      "roomType": "Ofis",
+      "id": "3"
+    },
+    {
+      "roomNo": "1",
+      "company": "Azərbaycan Futzal Federasiyası",
+      "owner": "",
+      "sahe": "347",
+      "roomType": "Ofis",
+      "id": "4"
+    },
+    {
+      "roomNo": "16",
+      "company": "Azərbaycan Futzal Federasiyası",
+      "owner": "",
+      "sahe": "70",
+      "roomType": "Ofis",
+      "id": "26"
+    },
+    {
+      "roomNo": "3",
+      "company": "TIIM MMC",
+      "owner": "",
+      "sahe": "70,00",
+      "roomType": "Ofis",
+      "id": "6"
+    },
+    {
+      "roomNo": "4",
+      "company": "Euro Construction MMC",
+      "owner": "",
+      "sahe": "60,00",
+      "roomType": "Ofis",
+      "id": "7"
+    },
+    {
+      "roomNo": "5",
+      "company": "Arxangelsk MMC",
+      "owner": "",
+      "sahe": "55",
+      "roomType": "Ofis",
+      "id": "8"
+    },
+    {
+      "roomNo": "23",
+      "company": "Binnətov Vüqar Nurlan",
+      "owner": "",
+      "sahe": "55,00",
+      "roomType": "Ofis",
+      "id": "9"
+    },
+    {
+      "roomNo": "24",
+      "company": "Boş otaq",
+      "owner": "",
+      "sahe": "67,00",
+      "roomType": "Ofis",
+      "id": "10"
+    },
+    {
+      "roomNo": "21",
+      "company": "Akt zalı",
+      "owner": "",
+      "sahe": "59 , 64",
+      "roomType": "Ofis",
+      "id": "11"
+    },
+    {
+      "roomNo": "17",
+      "company": "Sara Group Lizing",
+      "owner": "",
+      "sahe": "70,00",
+      "roomType": "Ofis",
+      "id": "12"
+    },
+    {
+      "roomNo": "15",
+      "company": "Əliyev Şahin İdris",
+      "owner": "",
+      "sahe": "72,00",
+      "roomType": "Ofis",
+      "id": "13"
+    },
+    {
+      "roomNo": "12",
+      "company": "Safety Supply MMC",
+      "owner": "",
+      "sahe": "72",
+      "roomType": "Ofis",
+      "id": "14"
+    },
+    {
+      "roomNo": "13,14",
+      "company": "Safety Supply MMC",
+      "owner": "",
+      "sahe": "65,57",
+      "roomType": "Ofis",
+      "id": "25"
+    },
+    {
+      "roomNo": "10",
+      "company": "Star Uniform MMC",
+      "owner": "",
+      "sahe": "72,00",
+      "roomType": "Ofis",
+      "id": "15"
+    },
+    {
+      "roomNo": "11",
+      "company": "Star Uniform MMC",
+      "owner": "",
+      "sahe": "72,00",
+      "roomType": "Ofis",
+      "id": "24"
+    },
+    {
+      "roomNo": "9",
+      "company": "Gera Pharm MMC",
+      "owner": "",
+      "sahe": "91,10",
+      "roomType": "oFIS",
+      "id": "16"
+    },
+    {
+      "roomNo": "8",
+      "company": "Bey Design Group MMC",
+      "owner": "",
+      "sahe": "55,00",
+      "roomType": "Ofis",
+      "id": "17"
+    },
+    {
+      "roomNo": " 18",
+      "company": "Gur MMC,Uğur MMC,Uğur-M 2013-MMC ",
+      "owner": "",
+      "sahe": "25 , 45 , 20",
+      "roomType": "Ofis",
+      "id": "18"
+    },
+    {
+      "roomNo": "19",
+      "company": "Nort Vest Konstrakşn",
+      "owner": "",
+      "sahe": "55,00",
+      "roomType": "Ofis",
+      "id": "19"
+    },
+    {
+      "roomNo": "20",
+      "company": "Məmmədov Emil",
+      "owner": "",
+      "sahe": "90,00",
+      "roomType": "Anbar",
+      "id": "20"
+    },
+    {
+      "roomNo": "26",
+      "company": "Agah Group MMC,Decopaints MMC,Nobel boya ve kimya MMC",
+      "owner": "",
+      "sahe": "180 , 120 , 79",
+      "roomType": "Ofis",
+      "id": "21"
+    },
+    {
+      "roomNo": "7",
+      "company": "GSS 7",
+      "owner": "",
+      "sahe": "74",
+      "roomType": "Ofis",
+      "id": "22"
+    },
+    {
+      "roomNo": "22",
+      "company": "Konfrans zali",
+      "owner": "",
+      "sahe": "59",
+      "roomType": "Ofis",
+      "id": "23"
     }
   ],
-  "comments": [
+  "Mertebe-2": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "roomNo": "12",
+      "company": "asd",
+      "owner": "asd",
+      "sahe": "asd",
+      "roomType": "asd",
+      "id": "Io6gjbb"
+    },
+    {
+      "roomNo": "13",
+      "company": "Sara MMC 11111111111111111",
+      "owner": "YAmil ",
+      "sahe": "122",
+      "roomType": "Metbex",
+      "id": "N3wR3oj"
+    },
+    {
+      "roomNo": "13",
+      "company": "Sara MMC 11111111111111111",
+      "owner": "YAmil ",
+      "sahe": "122",
+      "roomType": "Metbex",
+      "id": "N3wR3oj"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "Mertebe-3": [
+    {
+      "roomNo": "12",
+      "company": "asd",
+      "owner": "asd",
+      "sahe": "asd",
+      "roomType": "asd",
+      "id": "Io6gjbb"
+    },
+    {
+      "roomNo": "13",
+      "company": "Sara MMC 11111111111111111",
+      "owner": "YAmil ",
+      "sahe": "122",
+      "roomType": "Metbex",
+      "id": "N3wR3oj"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Osman",
+      "email": "osman@mail.ru"
+    }
+  ]
 }

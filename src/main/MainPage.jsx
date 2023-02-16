@@ -5,7 +5,6 @@ import style from "./main.module.css";
 import { BuildContext } from "../App";
 import { useNavigate } from "react-router-dom";
 
-
 const MainPage = () => {
   const navigate = useNavigate()
   const context = useContext(BuildContext);
@@ -19,7 +18,9 @@ const MainPage = () => {
   };
 
   const handleParams = () => {
-    navigate(`/${text.title}`)
+     if(text.title != null){
+      navigate(`/${text.title}`)
+     }
   }
 
   return (

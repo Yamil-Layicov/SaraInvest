@@ -10,11 +10,15 @@ const Selector = () => {
         navigate('/main')
     }   
 
+    const handleNavigate2 = () => {
+      navigate('/parametr')
+  }   
+
   return (
     <div>
         <div className={style.selectorText}>
             <span onClick={handleNavigate} className={style.span}>Xerite uzerinde</span>
-            <span>Paramterler uzre</span>
+            <span onClick={handleNavigate2}>Paramterler uzre</span>
         </div>
     </div>
   )

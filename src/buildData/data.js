@@ -5,7 +5,8 @@ export const data =  [
       name:"Sara Invest MMC",
       imgBox:"imgBox",
       imgBox1:"imgBox1",
-      allRommsNum:"Umumi otaq sayi: 12"
+      allRommsNum:"Umumi otaq sayi: 12",
+      color:"color"
     },
     {
       id:2,
@@ -13,7 +14,8 @@ export const data =  [
       name:"Elxan MMC",
       imgBox:"imgBox",
       imgBox2:"imgBox2",
-      allRommsNum:"Umumi otaq sayi: 22"
+      allRommsNum:"Umumi otaq sayi: 22",
+      color:"color"
     },
     {
       id:3,
