@@ -8,7 +8,12 @@ import {data} from './buildData/data'
 import Bina1 from './bina1/Bina1'
 import Bina2 from './bina2/Bina2'
 import Parmetr from './parametrlerUzre/Parmetr'
-import Admin from './admin/Admin'
+import AdminLogin from './admin/adminLogin/AdminLogin'
+import FloorOne from './admin/pages/floor1/FloorOne'
+import FloorTwo from './admin/pages/floor2/FloorTwo'
+import AdminLayout from './admin/pages/dasborad/AdminLayout'
+import Admin from './admin/pages/dasborad/Admin'
+import UserManage from './admin/userManage/UserManage'
 
 export const BuildContext = createContext();
 
@@ -21,7 +26,6 @@ const App = () => {
 
   const addToBuildText = text => setState({
       buildText:state.buildText.find(item => item.id === text.id),
-      changeColor:state.changeColor.find(item => item.id === text.id)
   })
 
   return (
@@ -34,7 +38,13 @@ const App = () => {
           <Route path='/parametr' element={<Parmetr/>}/>
           <Route path ='/Bina-1' element={<Bina1/>}/>
           <Route path='/Bina-2' element={<Bina2/>}/>
-          <Route path='/admin' element={<Admin/>}/>
+          <Route path='/admin' element={<AdminLayout/>}>
+              <Route index={true} element={<Admin/>}/>
+              <Route path='mertebe-1' element={<FloorOne/>}/>
+              <Route path='mertebe-2' element={<FloorTwo/>}/>
+              <Route path='userManage' element={<UserManage/>}/>
+          </Route> 
+          <Route path='/adminLogin' element={<AdminLogin/>}/>
          </Routes>
        </div>
     </BuildContext.Provider>

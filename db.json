@@ -6,7 +6,9 @@
       "owner": "",
       "sahe": "303,60",
       "roomType": "Ofis",
-      "id": "1"
+      "id": "1",
+      "width":"100px",
+      "height":"100px"
     },
     {
       "roomNo": "6",

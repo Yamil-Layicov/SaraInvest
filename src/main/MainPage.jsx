@@ -30,11 +30,11 @@ const MainPage = () => {
           <div className={style.imgDivTag}>
             { 
               context.state.buildList.map(btn => {
-                return <div key={btn.id} onClick={() => handleClick(btn)}>
+                return <div  key={btn.id} onClick={() => handleClick(btn)}>
                   <Bottons btn={btn}/>
                 </div>
               })
-            } 
+            }   
 
             {/* <div>
                   <div className='imgBox'>Bina-1</div>

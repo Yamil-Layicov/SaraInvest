@@ -11,11 +11,25 @@
     padding: 8px 12px;
     border-radius: 12px;
 }
-    
-.mainContent{
+
+.footerContent{
     background-color: rgb(63, 189, 214);
     width: 100%;
 }
 
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContent{
+    width: 75%;
+}
+
+.detailContent{
+    width: 25%;
+    background-color: rgb(63, 185, 39);
+    margin-top: 40px;
+}
 
 
