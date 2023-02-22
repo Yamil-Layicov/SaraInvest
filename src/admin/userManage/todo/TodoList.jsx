@@ -5,7 +5,6 @@ import { useSelector } from "react-redux";
 const TodoList = ({setModal}) => {
 
   const {todos} = useSelector((state) => state.todo)
-  const {userType} = useSelector((state) => state.todo)
 
   return (
     <>

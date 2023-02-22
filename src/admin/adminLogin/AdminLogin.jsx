@@ -1,40 +1,63 @@
-import {useRef,useState,useEffect,useContext} from 'react'
+import {useRef,useState,useEffect} from 'react'
 import {useNavigate} from 'react-router-dom'
 import style from './AdminLogin.module.css'
-import AuthContext from '../../context/AuthProvider'
+import {useDispatch,useSelector} from 'react-redux'
+import { loginPosition } from '../../stores/loginUser'
 
 const AdminLogin = () => {
-    const {setAuth} = useContext(AuthContext);
 
+    const dispatch = useDispatch();
+
+    const navigate = useNavigate()
     const userRef = useRef();
-    const errRef = useRef();
-
     const [user,setUser] = useState('');
-    const [pwd,setPwd] = useState('');
+    const [email,setEmail] = useState('');
     const [errMsg,setErrMsg] = useState('');
-    const [success,setSuccess] = useState(false);
+    const [login,setLogin] = useState('')
 
     useEffect(() => {
         userRef.current.focus();
+        fetch("http://localhost:3001/users")
+        .then((res) => res.json())
+        .then((res) => setLogin(res));
     }, [])
 
     useEffect(() => {
         setErrMsg('');
-    }, [user,pwd])
+    }, [user,email])
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(user,pwd)
         setUser('');
-        setPwd('');
-        setSuccess(true);
-    }
+        setEmail(''); 
+        const loginUsers = login.map(l => l.name)
+        const loginEmails = login.map(l => l.email)
+        if(user == loginUsers[0] && email == loginEmails[0]){
+            navigate('/admin')
+            dispatch(loginPosition(login[0]))
+            window.location.reload();
+        }if(user == loginUsers[1]){
+            navigate('/admin')
+            dispatch(loginPosition(login[1]))
+            window.location.reload();
+        }
+        if(user == loginUsers[2]){
+            navigate('/admin')
+            dispatch(loginPosition(login[2]))
+            window.location.reload();
+        }
+        if(user == loginUsers[3]){
+            navigate('/admin')
+            dispatch(loginPosition(loginUsers[3]))
+            window.location.reload();
+        }
+    }   
 
   return (
     <div>
         <section className={style.section}>
-        <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
-        <h1>Sign In</h1>
+        <p  className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
+        <h1>Daxil ol</h1>
                     <form   className={style.content} onSubmit={handleSubmit}>
                         <label htmlFor="username">Username:</label>
                         <input
@@ -47,15 +70,15 @@ const AdminLogin = () => {
                             required
                         />
 
-                        <label htmlFor="password">Password:</label>
+                        <label htmlFor="password">Email:</label>
                         <input
-                            type="password"
-                            id="password"
-                            onChange={(e) => setPwd(e.target.value)}
-                            value={pwd}
+                            type="email"
+                            id="email"
+                            onChange={(e) => setEmail(e.target.value)}
+                            value={email}
                             required
                         />
-                        <button>Sign In</button>
+                        <button>Daxil ol</button>
                     </form>
         </section>
     </div>

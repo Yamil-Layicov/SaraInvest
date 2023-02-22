@@ -14,6 +14,7 @@ import FloorTwo from './admin/pages/floor2/FloorTwo'
 import AdminLayout from './admin/pages/dasborad/AdminLayout'
 import Admin from './admin/pages/dasborad/Admin'
 import UserManage from './admin/userManage/UserManage'
+import AddUSer from './admin/pages/addUserAdmin/AddUSer'
 
 export const BuildContext = createContext();
 
@@ -43,6 +44,7 @@ const App = () => {
               <Route path='mertebe-1' element={<FloorOne/>}/>
               <Route path='mertebe-2' element={<FloorTwo/>}/>
               <Route path='userManage' element={<UserManage/>}/>
+              <Route path='addUser' element={<AddUSer/>}/>
           </Route> 
           <Route path='/adminLogin' element={<AdminLogin/>}/>
          </Routes>

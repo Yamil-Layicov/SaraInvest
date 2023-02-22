@@ -7,8 +7,8 @@
       "sahe": "303,60",
       "roomType": "Ofis",
       "id": "1",
-      "width":"100px",
-      "height":"100px"
+      "width": "100px",
+      "height": "100px"
     },
     {
       "roomNo": "6",
@@ -249,9 +249,16 @@
   ],
   "users": [
     {
-      "id": "1",
-      "name": "Osman",
-      "email": "osman@mail.ru"
+      "id": "wtR9gry-tEmk_OFyytQ_l",
+      "name": "Yamil",
+      "email": "yamil@mail.ru",
+      "position": "admin"
+    },
+    {
+      "id": "wjxLQOnNfs5YUqs0m06a4",
+      "name": "Elcan",
+      "email": "elcan@mail.ru",
+      "position": "manager"
     }
   ]
 }
