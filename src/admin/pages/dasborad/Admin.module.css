@@ -6,12 +6,15 @@
 
 .leftAdminContent{
     width: 16%;
-    height: 100vh;
     background-color: rgb(255, 0, 0);
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
 }
 
 .rightAdminContent{

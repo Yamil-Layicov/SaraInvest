@@ -249,15 +249,21 @@
   ],
   "users": [
     {
-      "id": "wtR9gry-tEmk_OFyytQ_l",
+      "id": "IKS_w1z2lh09UyYmaBQF7",
       "name": "Yamil",
       "email": "yamil@mail.ru",
       "position": "admin"
     },
     {
-      "id": "wjxLQOnNfs5YUqs0m06a4",
+      "id": "Hf04t6WCJdMJ2eLF_bD5I",
       "name": "Elcan",
       "email": "elcan@mail.ru",
+      "position": "manager"
+    },
+    {
+      "id": "btt288FWXZFeHOy2h_eNq",
+      "name": "Elxan",
+      "email": "elxan@mail.ru",
       "position": "manager"
     }
   ]

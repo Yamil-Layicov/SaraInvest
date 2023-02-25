@@ -130,8 +130,28 @@
     padding: 8px 22px;
 }
 
+.cardContent{
+    border-radius: none;
+    background-color: white;
+    border: none;
+}
 
+::-webkit-scrollbar-track {
+    background: red; 
+}
 
+::-webkit-scrollbar-thumb {
+  background: blue; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: green; 
+}
+
+.tbodyFloor1{
+    overflow-y:scroll; 
+    height:630px;
+}
 
 
 

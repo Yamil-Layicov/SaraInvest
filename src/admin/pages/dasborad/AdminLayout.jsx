@@ -48,8 +48,7 @@ const AdminLayout = () => {
           <Link to="/admin/mertebe-1">Mertebe-1</Link>
           <Link to="/admin/mertebe-2">Mertebe-2</Link>
           <div>Mertebe-3</div>
-          <Link to="/admin/userManage">Idarəetmə</Link>
-          <Link to="/admin/addUser">Add user</Link>
+          <Link to="/admin/addUser">Idarəetmə</Link>
         </div>
         <div className={style.rightAdminContent}>
           <div className={style.headerContent}>

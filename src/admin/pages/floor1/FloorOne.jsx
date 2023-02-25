@@ -1,9 +1,62 @@
-import React from 'react'
+import React from "react";
+import { useEffect,useState } from "react";
 
-const FloorOne = () => {
+const RoomList = () => {
+  const [datas,setDatas] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:3001/Mertebe-1")
+    .then(res => res.json())
+    .then(res => setDatas(res))
+  },[])
+
   return (
-    <div>FloorOne</div>
-  )
-}
+    <>
+      <div className="cardContent">
+        <div className="card cardContent tbodyFloor1">
+          <div className="card-title">
+          </div>
+          <div className="card-body">
+            <table border='1' className="table table-bordered ">
+              <thead className="bg-dark text-white">
+                <tr>
+                  <td>Otaq No:</td>
+                  <td>Müəssəsənin adı</td>
+                  <td>Sahibkar</td>
+                  <td>Sahəsi m<sup>2</sup></td>
+                  <td>Məkan növü</td>
+                  <td>Əlavələr</td>
+                </tr>
+              </thead>
+              <tbody className="tbodyFloor1">
+                    {
+                      datas.map(data => <tr>
+                        <td>{data.roomNo}</td>
+                        <td>{data.company}</td>
+                        <td>{data.owner}</td>
+                        <td>{data.sahe}</td>
+                        <td>{data.roomType}</td>
+                        <td className="">
+                          <a
+                            className="btn btn-success"
+                          >
+                            Redakte et
+                          </a>
+                          <a
+                            className="btn btn-danger"
+                          >
+                            Sil
+                          </a>
+                        </td>
+                      </tr>)
+                    }
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default FloorOne
+export default RoomList;
