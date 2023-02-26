@@ -118,13 +118,13 @@ const AddUSer = () => {
       {users.map((u) => (
         <div style={{ borderBottom: "1px solid white" }} key={u.id}>
           <div>
-            <span style={{ color: "white" }}>Name</span>:{u.name}
+            <span style={{ color: "gray",paddingRight:"3px" }}>Name</span>:{u.name}
           </div>
           <div>
-            <span style={{ color: "white" }}>Email</span>:{u.email}
+            <span style={{ color: "gray",paddingRight:"3px" }}>Email</span>:{u.email}
           </div>
           <div>
-            <span style={{ color: "white" }}>Position</span>:{u.position}
+            <span style={{ color: "gray",paddingRight:"3px" }}>Position</span>:{u.position}
           </div>
           <button
             disabled={u.name == "Yamil" && u.position == "admin"}

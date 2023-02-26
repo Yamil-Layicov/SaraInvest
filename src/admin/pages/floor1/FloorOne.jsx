@@ -25,7 +25,7 @@ const RoomList = () => {
                   <td>Sahibkar</td>
                   <td>Sahəsi m<sup>2</sup></td>
                   <td>Məkan növü</td>
-                  <td>Əlavələr</td>
+                  <td>Düzəlişlər</td>
                 </tr>
               </thead>
               <tbody className="tbodyFloor1">

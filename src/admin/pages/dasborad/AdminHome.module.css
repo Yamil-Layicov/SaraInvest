@@ -1,0 +1,76 @@
+.homeContent{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 19px;
+}
+
+.contentBox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: rgba(119, 119, 119, 0.432) 0px 2px 5px;
+    position: relative;
+}
+
+.userIcon{
+    font-size: 22px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 128, 0, 0.177);
+    padding: 0 8px;
+    border-radius: 5px;
+}
+
+.userIconFirst{
+    font-size: 22px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 217, 0, 0.459);
+    padding: 0 8px;
+    border-radius: 5px;
+}
+
+.userIconSecond{
+    font-size: 22px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f7617f82;
+    padding: 0 8px;
+    border-radius: 5px;
+}
+
+.userIconThird{
+    font-size: 22px;
+    position: absolute;
+    bottom: 18px;
+    right: 20px;
+    background-color: rgba(0, 0, 139, 0.377);
+    padding: 0 8px;
+    border-radius: 5px;
+}
+
+.boxColumns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxColumns p{
+    padding-left: 20px;
+}
+
+.boxColumns .first{
+    color: gray;
+    font-size: 20px;
+}
+
+.boxColumns .userNumber{
+    font-size: 38px;
+}

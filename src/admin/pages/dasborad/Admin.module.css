@@ -6,7 +6,6 @@
 
 .leftAdminContent{
     width: 16%;
-    background-color: rgb(255, 0, 0);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -15,23 +14,12 @@
     top: 0;
     left: 0;
     height: 100vh;
+    border-right: 1px solid gray;
 }
 
 .rightAdminContent{
     width: 94%;
     height: 100vh;
-    background-color: rgb(0, 174, 255);
-}
-
-.logoImg{
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-}
-
-.logoImg img{
-    width: 100%;
-    border-radius: 100%;
 }
 
 .ortala{
@@ -40,17 +28,108 @@
 }
 
 .headerContent{
-    background-color: bisque;
-    padding: 20px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+    padding-right: 40px;
+    border-bottom: 1px solid gray;
 }
 
-.alma{
-    width: 800px;
-    background-color: black;
+.userImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
 }
 
-.alma img{
+.userImg img{
     width: 100%;
+    border-radius: 100%;
 }
+
+.rightHeaderContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightHeaderContent .icons{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.rightHeaderContent .settingExit{
+    position: relative;
+}
+
+.rightHeaderContent .settingExitBtn{
+    position: absolute;
+    top: 44px;
+    right: -10px;
+    z-index: 1;
+    border: none;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.rightHeaderContent .active{
+    display: none;
+}
+
+.rightHeaderContent .langIcon{
+    font-size: 14px;
+}
+
+.langIcon .icons{
+    font-size: 18px;
+}
+
+.rightHeaderContent .settingIcon{
+    font-size: 24px;
+}
+
+.leftHeaderContent .searchInput input{
+    border: none;
+    outline: none;
+}
+
+.leftHeaderContent .searchInput{
+    border: 1px solid gray;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.leftAdminContent .ortala{
+    border-bottom: 1px solid gray;  
+    margin-top: 11px;
+}
+
+.leftAdminContent .ortala div{
+    padding-bottom: 15px;
+}
+
+.userPos{
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+.leftAdminContent .leftSections{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 50px;
+}
+
+.leftAdminContent .sectionIcons{
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+
