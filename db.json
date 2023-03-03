@@ -7,8 +7,7 @@
       "sahe": "303,60",
       "roomType": "Ofis",
       "id": "1",
-      "width": "100px",
-      "height": "100px"
+      "roomStyle": "styleRoomId1"
     },
     {
       "roomNo": "6",
@@ -16,7 +15,8 @@
       "owner": "",
       "sahe": "64,00",
       "roomType": "Ofis",
-      "id": "2"
+      "id": "2",
+      "roomStyle": "styleRoomId2"
     },
     {
       "roomNo": "2",
@@ -143,7 +143,7 @@
       "company": "Gera Pharm MMC",
       "owner": "",
       "sahe": "91,10",
-      "roomType": "oFIS",
+      "roomType": "Ofis",
       "id": "16"
     },
     {
@@ -255,22 +255,22 @@
       "position": "admin"
     },
     {
-      "id": "Hf04t6WCJdMJ2eLF_bD5I",
+      "name": "Elxan",
+      "email": "elxan@gmail.com",
+      "position": "manager",
+      "id": "CNpxhJFxobv50g0yGQUdy"
+    },
+    {
+      "name": "Cefer",
+      "email": "cefer@mail.ru",
+      "position": "manager",
+      "id": "iCaY9SgrT-5NSjE5T0aA2"
+    },
+    {
       "name": "Elcan",
       "email": "elcan@mail.ru",
-      "position": "manager"
-    },
-    {
-      "id": "btt288FWXZFeHOy2h_eNq",
-      "name": "Elxan",
-      "email": "elxan@mail.ru",
-      "position": "manager"
-    },
-    {
-      "id": "MLrNY4a830EGYEZqL8uiW",
-      "name": "Osman",
-      "email": "osman@mail.ru",
-      "position": "manager"
+      "position": "admin",
+      "id": "Jxs7pWldsJv4HKgKdvj99"
     }
   ]
 }

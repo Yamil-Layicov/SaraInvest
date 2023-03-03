@@ -14,8 +14,8 @@ import FloorTwo from "./admin/pages/floor2/FloorTwo";
 import FloorThree from './admin/pages/floor3/FloorThree';
 import AdminLayout from "./admin/pages/dasborad/AdminLayout";
 import AddUSer from "./admin/pages/addUserAdmin/AddUSer";
-import ModalUser from "./admin/pages/addUserAdmin/ModalUser/ModalUser";
 import DataTable from "./admin/pages/materialUser/DataTable";
+import RoomEdit from "./admin/pages/floor1/FloorOneEdit";
 
 export const BuildContext = createContext();
 
@@ -38,17 +38,20 @@ const App = () => {
           <Route path="/selector" element={<Selector />} />
           <Route path="/main" element={<MainPage />} />
           <Route path="/parametr" element={<Parmetr />} />
-          <Route path="/Bina-1" element={<Bina1 />} />
+          <Route path="/Bina-1" element={<Bina1 />}>
+
+          </Route>
           <Route path="/Bina-2" element={<Bina2 />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route index={true} element={<DataTable/>}/>
             <Route path="mertebe-1" element={<FloorOne />} />
+            <Route path='mertebe-1/:roomid' element={<RoomEdit/>}/>
             <Route path="mertebe-2" element={<FloorTwo />} />
-            <Route path="mertebe-3" element={<FloorThree/>}/>
+            <Route path="mertebe-3" element={<FloorThree/>}/>           
             <Route path="addUser" element={<AddUSer />} />
-            <Route path="modalUser" element={<ModalUser />} />
           </Route>
           <Route path="/adminLogin" element={<AdminLogin />} />
+          
         </Routes>
       </div>
     </BuildContext.Provider>

@@ -1,14 +1,21 @@
 import React from "react";
 import { useEffect,useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@mui/material";
 
 const RoomList = () => {
   const [datas,setDatas] = useState([])
+  const navigate = useNavigate()
 
   useEffect(() => {
     fetch("http://localhost:3001/Mertebe-1")
     .then(res => res.json())
     .then(res => setDatas(res))
   },[])
+
+  const handleEditRoomNo = (id) => {
+    navigate("/admin/mertebe-1/" + id);
+  }
 
   return (
     <>
@@ -30,23 +37,20 @@ const RoomList = () => {
               </thead>
               <tbody className="tbodyFloor1">
                     {
-                      datas.map(data => <tr>
+                      datas.map((data)=> <tr key={data.id}>
                         <td>{data.roomNo}</td>
                         <td>{data.company}</td>
                         <td>{data.owner}</td>
                         <td>{data.sahe}</td>
                         <td>{data.roomType}</td>
                         <td className="">
-                          <a
-                            className="btn btn-success"
-                          >
-                            Redakte et
-                          </a>
-                          <a
-                            className="btn btn-danger"
-                          >
-                            Sil
-                          </a>
+                          <Button
+                          onClick={() => handleEditRoomNo(data.id)}
+                          className=""
+                          variant="contained"
+                        >
+                          Redakte et
+                        </Button>
                         </td>
                       </tr>)
                     }

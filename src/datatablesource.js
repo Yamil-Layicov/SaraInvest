@@ -27,12 +27,12 @@ export const userColumns = [
     }
   },
   {field:"email",headerName:"E-poçt",width:190},
-  {field:"age",headerName:"Yaş",width:100},
   {field:"status",headerName:"Status",width:130,renderCell:(params) => {
     return (
         <div className={`cellWithStatus ${params.row.status}`}>{params.row.status} </div>
     )
-  }}
+  }},
+  {field:"age",headerName:"Tarix",width:150}
 ];
 
 export const userRows = [
@@ -42,7 +42,7 @@ export const userRows = [
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     status: "admin",
     email: "yamil@mail.ru",
-    age: 35,
+    age: "13/12/2023",
   },
   {
     id: 2,
@@ -50,7 +50,7 @@ export const userRows = [
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "elxan@mail.ru",
     status: "manager",
-    age: 42,
+    age: "05/12/2023",
   },
   {
     id: 3,
@@ -58,62 +58,62 @@ export const userRows = [
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "elcan@mail.ru",
     status: "manager",
-    age: 45,
+    age: "23/05/2023",
   },
   {
     id: 4,
     username: "Stark",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "4snow@gmail.com",
-    status: "active",
-    age: 16,
+    status: "manager",
+    age: "23/08/2023",
   },
   {
     id: 5,
     username: "Targaryen",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "5snow@gmail.com",
-    status: "passive",
-    age: 22,
+    status: "manager",
+    age: "21/12/2023",
   },
   {
     id: 6,
     username: "Melisandre",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "6snow@gmail.com",
-    status: "active",
-    age: 15,
+    status: "manager",
+    age: "05/12/2023",
   },
   {
     id: 7,
     username: "Clifford",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "7snow@gmail.com",
-    status: "passive",
-    age: 44,
+    status: "manager",
+    age: "03/12/2023",
   },
   {
     id: 8,
     username: "Frances",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "8snow@gmail.com",
-    status: "active",
-    age: 36,
+    status: "admin",
+    age: "12/12/2023",
   },
   {
     id: 9,
     username: "Roxie",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "snow@gmail.com",
-    status: "pending",
-    age: 65,
+    status: "admin",
+    age: "09/12/2023",
   },
   {
     id: 10,
     username: "Roxie",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "snow@gmail.com",
-    status: "active",
-    age: 65,
+    status: "admin",
+    age: "15/12/2023",
   },
 ];

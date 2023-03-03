@@ -1,35 +1,28 @@
-.headerContent{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 40px;
-    width: 100%;
-    background-color: red;
-}
-
-.headerContent button{
-    padding: 8px 12px;
-    border-radius: 12px;
-}
-
-.footerContent{
-    background-color: rgb(63, 189, 214);
-    width: 100%;
-}
-
-.content{
+.mainContent{
     display: flex;
     justify-content: space-between;
 }
 
-.mainContent{
-    width: 75%;
+.leftContent{
+    background-color: red;
+    width: 80%;
+    height: 100%;
 }
 
-.detailContent{
-    width: 25%;
-    background-color: rgb(63, 185, 39);
-    margin-top: 40px;
+.rightContent{
+    background-color: aqua;
+    width: 20%;
+}
+
+.leftHeaderContent{
+    text-align: center;
+    height: 13vh;
+    background-color: rgb(82, 218, 37);
+    padding-top: 2%;
+}
+
+.leftFooterContent{
+    height: 87vh;
 }
 
 

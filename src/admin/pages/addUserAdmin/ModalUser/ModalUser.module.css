@@ -1,48 +1,21 @@
-.modal{
-    position: fixed;
+.modalContent{
+    position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.207);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.modal .modalInto{
-    background-color: #fff;
-    padding: 15px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.modal input{
-    padding: 6px 5px;
-}
-
-.closeBtn{
-    position: absolute;
-    top: 0;
-    right: -35px;
-    background-color: gray;
-    padding: 2px 10px;
-    color: white;
-    transition: all .4s ease-in-out;
-}
-
-.closeBtn:hover{
-    border-radius: 100%;
-    cursor: pointer;
 }
 
 .formContent{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+    width: 30%;
+    position: relative;
 }
 
 .mainFormContent{
@@ -54,11 +27,11 @@
     outline: none;
     border: none;
     border-bottom: 1px solid gray;
-    padding: 10px 0;
+    padding: 10px 10px;
 }
 
 .formContent select{
-    padding: 10px 0;
+    padding: 10px;
     border: none;
     border-bottom: 1px solid gray;
     outline: none;
@@ -67,7 +40,7 @@
 .formContent .addBtn{
     margin-top: 10px;
     padding: 7px 0;
-    background-color: #9797dd !important;
+    background-color: #7d7df0 !important;
     transition: all 0.3s;
 }
 
@@ -75,5 +48,20 @@
     box-shadow: rgba(124, 124, 124, 0.66) 0px 5px 9px;
 }
 
+.closeModalBtn{
+    position: absolute;
+    top: 0;
+    right: -40px;
+    background-color: rgba(176, 176, 176, 0.615);
+    color: black;
+    font-weight: bold;
+    padding: 4px 11px;
+    transition: all .3s ease-in-out;
+}
+
+.closeModalBtn:hover{
+    cursor: pointer;
+    border-radius: 100%;
+}
+
   
-    

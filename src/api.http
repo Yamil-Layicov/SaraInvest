@@ -7,7 +7,6 @@ content-type: application/json
 
 
 ###
-
 PUT http://localhost:3001/users/lk71IjZfFtBGNMxOrDqI6 HTTP/1.1
 Content-Type: application/json
 
@@ -19,6 +18,5 @@ Content-Type: application/json
   }
 
 ###
-
-DELETE  http://localhost:3001/users/3oTsHa5jl3Vs16KeMpWUk HTTP/1.1
+DELETE  http://localhost:3001/users/MLrNY4a830EGYEZqL8uiW HTTP/1.1
 Content-Type: application/json

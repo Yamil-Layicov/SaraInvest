@@ -35,20 +35,6 @@ const MainPage = () => {
                 </div>
               })
             }   
-
-            {/* <div>
-                  <div className='imgBox'>Bina-1</div>
-               </div>
-
-            {/* {context.state.buildList.map((item) => (
-              <div
-                onClick={() => handleClick(item)}
-                key={item.id}
-                className="imgBox"
-              >
-                {item.title}
-              </div>
-            ))} */}
           </div>
         </div>
         <div className={style.detailContent}>
