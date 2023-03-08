@@ -4,25 +4,32 @@
 }
 
 .leftContent{
-    background-color: red;
     width: 80%;
     height: 100%;
 }
 
 .rightContent{
-    background-color: aqua;
     width: 20%;
 }
 
 .leftHeaderContent{
     text-align: center;
-    height: 13vh;
-    background-color: rgb(82, 218, 37);
+    height: 10vh;
     padding-top: 2%;
 }
 
 .leftFooterContent{
-    height: 87vh;
+    position: relative;
+    height: 90vh;
+    border: 2px solid black;
 }
 
+.linkStyle{
+    color: gray;
+    transition: all .3s;
+}
+
+.linkStyle:hover{
+    color: rgb(0, 0, 0);
+}
 

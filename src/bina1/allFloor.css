@@ -1,0 +1,308 @@
+
+/* RoomNo-25 */
+.styleRoomId1{
+    background-color: rgba(255, 0, 0, 0.386);
+    clip-path: polygon(100% 0, 100% 63%, 29% 63%, 29% 100%, 10% 100%, 10% 49%, 0 49%, 0 0);
+    width: 30%;
+    height: 24vh;
+    margin-left: 8%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+/* RoomNo-2 */
+.styleRoomId3{
+    background-color: rgba(147, 172, 54, 0.522);
+    clip-path: polygon(55% 0, 55% calc(22% - 1px), 84% calc(22% - 1px), 84% 81%, 41% 81%, 41% 100%, 0 100%, 0 0);
+    width: 20%;
+    height: 56vh;
+    position: absolute;
+    top: 13%;
+    left: 0;
+    padding-top: 1%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+/* RoomNo-26 */
+.styleRoomId21{
+    background-color: rgba(203, 43, 94, 0.588);
+    clip-path: polygon(70% 0, 100% 0, 100% 100%, 65% 100%, 65% 62%, 0 62%, 0 8%, 0% 0%);
+    width: 40%;
+    height: 24vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+/* RoomNo-13,14 */
+.styleRoomId25{
+    clip-path: polygon(58% 0, 58% 33%, 100% 33%, 100% 100%, 0 100%, 0 0);
+    background-color: rgba(187, 30, 148, 0.588);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 20vh;
+    border-top: 2px solid black;
+}
+
+/* RoomNo-10 */
+.styleRoomId15{
+    width: 14%;
+    height: 11vh;
+    background-color: rgba(137, 43, 226, 0.436);
+    position: absolute;
+    top: 24vh;
+    right: 0;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+/* RoomNo-11 */
+.styleRoomId24{
+    width: 14%;
+    height: 11vh;
+    background-color: rgba(43, 226, 211, 0.436);
+    position: absolute;
+    top: 35vh;
+    right: 0;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+/* RoomNo-12 */
+.styleRoomId14{
+    clip-path: polygon(100% 0, 100% 100%, 57% 100%, 57% 69%, 0 69%, 0 0);
+    width: 14%;
+    height: 16vh;
+    background-color: rgba(198, 226, 43, 0.436);
+    position: absolute;
+    top: 51%;
+    right: 0;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+/* RoomNo-1 */
+.styleRoomId4{
+    clip-path: polygon(100% 0, 100% 100%, 39% 100%, 39% 69%, 0 69%, 0 0);
+    background-color: wheat;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 30%;
+    border: 2px solid black;
+}
+
+/* RoomNo-15 */
+.styleRoomId13{
+    background-color: rgba(240, 178, 64, 0.692);
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    width: 8%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+/* RoomNo-16 */
+.styleRoomId26{
+    background-color: rgba(238, 243, 102, 0.692);
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    right: 28%;
+    width: 11%;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+/* RoomNo-17 */
+.styleRoomId12{
+    background-color: rgba(187, 243, 102, 0.692);
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    right: 39%;
+    width: 8%;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+/* RoomNo-3 */
+.styleRoomId6{
+    background-color: rgba(0, 0, 0, 0.621);
+    width: 7%;
+    height: 17vh;
+    position: absolute;
+    left: 20%;
+    top:40vh;
+    border: 2px solid black;
+}
+
+/* RoomNo-24 */
+.styleRoomId10{
+    background-color: rgb(120, 120, 120);
+    width: 7%;
+    height: 16vh;
+    position: absolute;
+    left: 20%;
+    top: 24vh;
+    border: 2px solid black;
+}
+
+/* RoomNo-23 */
+.styleRoomId9{
+    background-color: rgba(126, 102, 102, 0.579);
+    width: 7%;
+    height: 16vh;
+    position: absolute;
+    left: 27%;
+    top: 24vh;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* RoomNo-22 */
+.styleRoomId23{
+    background-color: rgba(24, 77, 60, 0.541);
+    width: 7%;
+    height: 16vh;
+    position: absolute;
+    left: 34%;
+    top: 24vh;
+    border: 2px solid black;
+}
+
+/* RoomNo-21 */
+.styleRoomId11{
+    background-color: rgba(24, 53, 77, 0.541);
+    width: 7%;
+    height: 16vh;
+    position: absolute;
+    left: 41%;
+    top: 24vh;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black; 
+}
+
+/* RoomNo-6 */
+.styleRoomId2{
+    background-color: rgb(171, 80, 80);
+    width: 7%;
+    height: 17vh;
+    position: absolute;
+    left: 27%;
+    top: 40vh;
+    border-bottom: 2px solid black;
+}
+
+/* RoomNo-4 */
+.styleRoomId7{
+    background-color: rgb(160, 80, 171);
+    width: 7%;
+    height: 17vh;
+    position: absolute;
+    left: 34%;
+    top: 40vh;
+    border-bottom: 2px solid black;
+    border-right:2px solid black;
+    border-left:2px solid black;
+}
+
+/* RoomNo-5 */
+.styleRoomId8{
+    background-color: rgba(0, 0, 0, 0.474);
+    width: 7%;
+    height: 17vh;
+    position: absolute;
+    left: 41%;
+    top: 40vh;
+    border-bottom: 2px solid black;
+    border-right:2px solid black;
+}
+
+/* RoomNo-7 */
+.styleRoomId22{
+    background-color: rgb(145, 80, 171);
+    width: 10%;
+    height: 17vh;
+    position: absolute;
+    right: 37%;
+    top: 40vh;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+/* RoomNo-8 */
+.styleRoomId17{
+    background-color: rgb(80, 171, 136);
+    width: 10%;
+    height: 17vh;
+    position: absolute;
+    right: 27%;
+    top: 40vh;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+/* RoomNo-9 */
+.styleRoomId16{
+    background-color: rgb(86, 171, 80);
+    width: 10%;
+    height: 17vh;
+    position: absolute;
+    right: 17%;
+    top: 40vh;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+/* RoomNo-18 */
+.styleRoomId18{
+    background-color: rgba(80, 171, 136, 0.47);
+    width: 10%;
+    height: 16vh;
+    position: absolute;
+    right: 17%;
+    top: 24vh;
+    border: 2px solid black;
+}
+
+/* RoomNo-19 */
+.styleRoomId19{
+    background-color: rgba(80, 132, 171, 0.47);
+    width: 10%;
+    height: 16vh;
+    position: absolute;
+    right: 27%;
+    top: 24vh;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+/* RoomNo-20 */
+.styleRoomId20{
+    background-color: rgba(142, 80, 171, 0.47);
+    width: 10%;
+    height: 16vh;
+    position: absolute;
+    right: 37%;
+    top: 24vh;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+

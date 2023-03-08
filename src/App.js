@@ -16,6 +16,9 @@ import AdminLayout from "./admin/pages/dasborad/AdminLayout";
 import AddUSer from "./admin/pages/addUserAdmin/AddUSer";
 import DataTable from "./admin/pages/materialUser/DataTable";
 import RoomEdit from "./admin/pages/floor1/FloorOneEdit";
+import MertebeBir from './bina1/floorOne/MertebeBir'
+import MertebeIki from "./bina1/floorTwo/MertebeIki";
+import MertebeUc from "./bina1/floorThree/MertebeUc";
 
 export const BuildContext = createContext();
 
@@ -39,13 +42,15 @@ const App = () => {
           <Route path="/main" element={<MainPage />} />
           <Route path="/parametr" element={<Parmetr />} />
           <Route path="/Bina-1" element={<Bina1 />}>
-
+            <Route index={true} element={<MertebeBir/>}/>
+            <Route path="mertebeIki" element={<MertebeIki/>}/>
+            <Route path="mertebeUc" element={<MertebeUc/>}/>
           </Route>
           <Route path="/Bina-2" element={<Bina2 />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route index={true} element={<DataTable/>}/>
             <Route path="mertebe-1" element={<FloorOne />} />
-            <Route path='mertebe-1/:roomid' element={<RoomEdit/>}/>
+            <Route path='mertebe-1/:roomid' element={<RoomEdit/>}/> 
             <Route path="mertebe-2" element={<FloorTwo />} />
             <Route path="mertebe-3" element={<FloorThree/>}/>           
             <Route path="addUser" element={<AddUSer />} />

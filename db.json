@@ -10,6 +10,60 @@
       "roomStyle": "styleRoomId1"
     },
     {
+      "roomNo": "2",
+      "company": "Səmayə Co LTD MMC, Səmayə Logistic MMC",
+      "owner": "",
+      "sahe": "375,00",
+      "roomType": "Ofis",
+      "id": "3",
+      "roomStyle": "styleRoomId3"
+    },
+    {
+      "roomNo": "1",
+      "company": "Azərbaycan Futzal Federasiyası",
+      "owner": "",
+      "sahe": "347",
+      "roomType": "Ofis",
+      "id": "4",
+      "roomStyle": "styleRoomId4"
+    },
+    {
+      "roomNo": "16",
+      "company": "Azərbaycan Futzal Federasiyası",
+      "owner": "",
+      "sahe": "70",
+      "roomType": "Ofis",
+      "id": "26",
+      "roomStyle": "styleRoomId26"
+    },
+    {
+      "roomNo": "3",
+      "company": "TIIM MMC",
+      "owner": "",
+      "sahe": "70,00",
+      "roomType": "Ofis",
+      "id": "6",
+      "roomStyle": "styleRoomId6"
+    },
+    {
+      "roomNo": "4",
+      "company": "Euro Construction MMC",
+      "owner": "",
+      "sahe": "60,00",
+      "roomType": "Ofis",
+      "id": "7",
+      "roomStyle": "styleRoomId7"
+    },
+    {
+      "roomNo": "5",
+      "company": "Arxangelsk MMC",
+      "owner": "",
+      "sahe": "55",
+      "roomType": "Ofis",
+      "id": "8",
+      "roomStyle": "styleRoomId8"
+    },
+    {
       "roomNo": "6",
       "company": "Mirzəyev Eldəniz Ilham",
       "owner": "",
@@ -19,68 +73,22 @@
       "roomStyle": "styleRoomId2"
     },
     {
-      "roomNo": "2",
-      "company": "Səmayə Co LTD MMC, Səmayə Logistic MMC",
-      "owner": "",
-      "sahe": "375,00",
-      "roomType": "Ofis",
-      "id": "3"
-    },
-    {
-      "roomNo": "1",
-      "company": "Azərbaycan Futzal Federasiyası",
-      "owner": "",
-      "sahe": "347",
-      "roomType": "Ofis",
-      "id": "4"
-    },
-    {
-      "roomNo": "16",
-      "company": "Azərbaycan Futzal Federasiyası",
-      "owner": "",
-      "sahe": "70",
-      "roomType": "Ofis",
-      "id": "26"
-    },
-    {
-      "roomNo": "3",
-      "company": "TIIM MMC",
-      "owner": "",
-      "sahe": "70,00",
-      "roomType": "Ofis",
-      "id": "6"
-    },
-    {
-      "roomNo": "4",
-      "company": "Euro Construction MMC",
-      "owner": "",
-      "sahe": "60,00",
-      "roomType": "Ofis",
-      "id": "7"
-    },
-    {
-      "roomNo": "5",
-      "company": "Arxangelsk MMC",
-      "owner": "",
-      "sahe": "55",
-      "roomType": "Ofis",
-      "id": "8"
-    },
-    {
       "roomNo": "23",
       "company": "Binnətov Vüqar Nurlan",
       "owner": "",
       "sahe": "55,00",
       "roomType": "Ofis",
-      "id": "9"
+      "id": "9",
+      "roomStyle": "styleRoomId9"
     },
     {
       "roomNo": "24",
-      "company": "Boş otaq",
+      "company": "",
       "owner": "",
       "sahe": "67,00",
       "roomType": "Ofis",
-      "id": "10"
+      "id": "10",
+      "roomStyle":"styleRoomId10"
     },
     {
       "roomNo": "21",
@@ -88,7 +96,8 @@
       "owner": "",
       "sahe": "59 , 64",
       "roomType": "Ofis",
-      "id": "11"
+      "id": "11",
+      "roomStyle": "styleRoomId11"
     },
     {
       "roomNo": "17",
@@ -96,7 +105,8 @@
       "owner": "",
       "sahe": "70,00",
       "roomType": "Ofis",
-      "id": "12"
+      "id": "12",
+      "roomStyle": "styleRoomId12"
     },
     {
       "roomNo": "15",
@@ -104,7 +114,8 @@
       "owner": "",
       "sahe": "72,00",
       "roomType": "Ofis",
-      "id": "13"
+      "id": "13",
+      "roomStyle": "styleRoomId13"
     },
     {
       "roomNo": "12",
@@ -112,7 +123,8 @@
       "owner": "",
       "sahe": "72",
       "roomType": "Ofis",
-      "id": "14"
+      "id": "14",
+      "roomStyle": "styleRoomId14"
     },
     {
       "roomNo": "13,14",
@@ -120,7 +132,8 @@
       "owner": "",
       "sahe": "65,57",
       "roomType": "Ofis",
-      "id": "25"
+      "id": "25",
+      "roomStyle": "styleRoomId25"
     },
     {
       "roomNo": "10",
@@ -128,7 +141,8 @@
       "owner": "",
       "sahe": "72,00",
       "roomType": "Ofis",
-      "id": "15"
+      "id": "15",
+      "roomStyle": "styleRoomId15"
     },
     {
       "roomNo": "11",
@@ -136,7 +150,8 @@
       "owner": "",
       "sahe": "72,00",
       "roomType": "Ofis",
-      "id": "24"
+      "id": "24",
+      "roomStyle": "styleRoomId24"
     },
     {
       "roomNo": "9",
@@ -144,7 +159,8 @@
       "owner": "",
       "sahe": "91,10",
       "roomType": "Ofis",
-      "id": "16"
+      "id": "16",
+      "roomStyle": "styleRoomId16"
     },
     {
       "roomNo": "8",
@@ -152,39 +168,8 @@
       "owner": "",
       "sahe": "55,00",
       "roomType": "Ofis",
-      "id": "17"
-    },
-    {
-      "roomNo": " 18",
-      "company": "Gur MMC,Uğur MMC,Uğur-M 2013-MMC ",
-      "owner": "",
-      "sahe": "25 , 45 , 20",
-      "roomType": "Ofis",
-      "id": "18"
-    },
-    {
-      "roomNo": "19",
-      "company": "Nort Vest Konstrakşn",
-      "owner": "",
-      "sahe": "55,00",
-      "roomType": "Ofis",
-      "id": "19"
-    },
-    {
-      "roomNo": "20",
-      "company": "Məmmədov Emil",
-      "owner": "",
-      "sahe": "90,00",
-      "roomType": "Anbar",
-      "id": "20"
-    },
-    {
-      "roomNo": "26",
-      "company": "Agah Group MMC,Decopaints MMC,Nobel boya ve kimya MMC",
-      "owner": "",
-      "sahe": "180 , 120 , 79",
-      "roomType": "Ofis",
-      "id": "21"
+      "id": "17",
+      "roomStyle": "styleRoomId17"
     },
     {
       "roomNo": "7",
@@ -192,7 +177,44 @@
       "owner": "",
       "sahe": "74",
       "roomType": "Ofis",
-      "id": "22"
+      "id": "22",
+      "roomStyle": "styleRoomId22"
+    },
+    {
+      "roomNo": " 18",
+      "company": "Gur MMC,Uğur MMC,Uğur-M 2013-MMC ",
+      "owner": "",
+      "sahe": "25 , 45 , 20",
+      "roomType": "Ofis",
+      "id": "18",
+      "roomStyle": "styleRoomId18"
+    },
+    {
+      "roomNo": "19",
+      "company": "Nort Vest Konstrakşn",
+      "owner": "",
+      "sahe": "55,00",
+      "roomType": "Ofis",
+      "id": "19",
+      "roomStyle": "styleRoomId19"
+    },
+    {
+      "roomNo": "20",
+      "company": "Məmmədov Emil",
+      "owner": "",
+      "sahe": "90,00",
+      "roomType": "Anbar",
+      "id": "20",
+      "roomStyle": "styleRoomId20"
+    },
+    {
+      "roomNo": "26",
+      "company": "Agah Group MMC,Decopaints MMC,Nobel boya ve kimya MMC",
+      "owner": "",
+      "sahe": "180 , 120 , 79",
+      "roomType": "Ofis",
+      "id": "21",
+      "roomStyle": "styleRoomId21"
     },
     {
       "roomNo": "22",
@@ -200,7 +222,8 @@
       "owner": "",
       "sahe": "59",
       "roomType": "Ofis",
-      "id": "23"
+      "id": "23",
+      "roomStyle": "styleRoomId23"
     }
   ],
   "Mertebe-2": [
