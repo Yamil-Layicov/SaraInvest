@@ -1,8 +1,11 @@
 import React from 'react'
+import flo from './mertebeiki.png'
 
 const MertebeUc = () => {
   return (
-    <div>MertebeUc</div>
+    <div>
+      <img src={flo} alt="" />
+    </div>
   )
 }
 

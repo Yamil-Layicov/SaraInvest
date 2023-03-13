@@ -1,8 +1,10 @@
 import { useRef, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import style from "./AdminLogin.module.css";
-import { useDispatch} from "react-redux";
+import { useDispatch } from "react-redux";
 import { loginPosition } from "../../stores/loginUser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const AdminLogin = () => {
   const dispatch = useDispatch();
@@ -13,6 +15,13 @@ const AdminLogin = () => {
   const [email, setEmail] = useState("");
   const [errMsg, setErrMsg] = useState("");
   const [login, setLogin] = useState("");
+
+  const notifyError = () => toast('Ad veya email duzgun deyil', {
+    position: "top-center",
+    autoClose: 2000,
+    theme: "colored",
+    type:"error"
+    });
 
   useEffect(() => {
     userRef.current.focus();
@@ -29,54 +38,23 @@ const AdminLogin = () => {
     e.preventDefault();
     setUser("");
     setEmail("");
-    const loginUsers = login.map((l) => l.name);
-    const loginEmails = login.map((l) => l.email);
 
-
-    // if(user == loginUsers[0] && email == loginEmails[0]){
-    //     navigate('/admin')
-    //     dispatch(loginPosition(login[0]))
-    //     window.location.reload();
-    // }if(user == loginUsers[1]){
-    //     navigate('/admin')
-    //     dispatch(loginPosition(login[1]))
-    //     window.location.reload();
-    // }
-    // if(user == loginUsers[2]){
-    //     navigate('/admin')
-    //     dispatch(loginPosition(login[2]))
-    //     window.location.reload();
-    // }
-    // if(user == loginUsers[3]){
-    //     navigate('/admin')
-    //     dispatch(loginPosition(loginUsers[3]))
-    //     window.location.reload();
-    // }
-    //   const data=  loginUsers.filter(u=>u.name===user);
-    //    console.log(data);
-    // console.log(loginUsers[0]);
-//   console.log(user);
-    
-const data=login.find(u=>u.name === user);
+    const data = login.find((u) => u.name === user);
     if (data) {
-        console.log(data);
-        dispatch(loginPosition(data))
-        navigate('/admin')
+      console.log(data);
+      dispatch(loginPosition(data));
+      navigate("/admin");
+    } else {
+      notifyError();
     }
-    else{
-        console.log("rerre");
-    }
-  }
+  };
 
   return (
     <div>
       <section className={style.section}>
-        <p className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">
-          {errMsg}
-        </p>
-        <h1>Daxil ol</h1>
         <form className={style.content} onSubmit={handleSubmit}>
-          <label htmlFor="username">Username:</label>
+          <h1 style={{textAlign:"center"}}>Daxil ol</h1>
+          <label htmlFor="username">Istifadeci adi:</label>
           <input
             type="text"
             id="username"
@@ -98,6 +76,7 @@ const data=login.find(u=>u.name === user);
           <button>Daxil ol</button>
         </form>
       </section>
+      <ToastContainer />
     </div>
   );
 };

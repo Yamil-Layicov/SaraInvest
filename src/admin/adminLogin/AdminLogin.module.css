@@ -1,15 +1,39 @@
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+
 .content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    width: 25%;
+    background-color: #93C6E7;
+    padding:2%;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.section{
-    width: 20%;
-    margin: auto;
-}
 
 .section input,button{
     padding: 8px;
+    border-radius: 7px;
+}
+
+.section button{
+    background-color: #567189;
+    border: none;
+    margin-top: 2%;
+    transition: all .3s ease-in-out;
+    color: white;
+}
+
+.section button:hover{
+    border: none;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

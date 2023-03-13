@@ -23,14 +23,14 @@ const Bina1 = () => {
               style={{ textDecoration: "none", margin: "0 3%", color: "gray" }}
               to="/Bina-1/mertebeIki"
             >
-              MƏRTƏBƏ-2
+              <span className={style.linkStyle}>MƏRTƏBƏ-2</span>
             </Link>
             <Link
               className={style.linkStyle}
               style={{ textDecoration: "none", color: "gray" }}
               to="/Bina-1/mertebeUc"
             >
-              MƏRTƏBƏ-3
+              <span className={style.linkStyle}>MƏRTƏBƏ-3</span>
             </Link>
           </div>
           <div className={style.leftFooterContent}>

@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { roomDetails } from "../../stores/floorsRoomDetail";
-import style from "./MertebeBir.module.css";
 
 const MertebeBir = () => {
+
+  const [roomStyleId,setRoomStyleId] = useState("")
+
   const [floorOneData, setFloorOneData] = useState([]);
   const dispatch = useDispatch();
-  const [roomId,setRoomId] = useState('')
 
   useEffect(() => {
     fetch("http://localhost:3001/Mertebe-1")
@@ -16,19 +17,20 @@ const MertebeBir = () => {
 
   const handleRoomDetail = (data) => {
     dispatch(roomDetails(data));
-    setRoomId(data.id);
+    setRoomStyleId(data.id)
+    console.log(data)
   };
 
   return (
     <div>
       {floorOneData.map((data) => (
         <div
-          style={{ boxShadow: data.company === "" && "3px 3px 3px red"}}
+          style={{ boxShadow: data.company === "" && "inset 0px 0px 16px 1px  red"}}
           onClick={() => handleRoomDetail(data)}
-          className={data.roomStyle}
+          className={`${data.roomStyle} ${data.id === roomStyleId && "roomStyleClickId"}`}
           key={data.id}
         >
-          <div style={{ paddingLeft: "2px" }}>{data.roomNo}</div>
+          <div style={{ paddingLeft: "2px"}}>{data.roomNo}</div>
         </div>
       ))}
     </div>

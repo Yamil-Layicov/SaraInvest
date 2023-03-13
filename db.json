@@ -6,8 +6,8 @@
       "owner": "",
       "sahe": "303,60",
       "roomType": "Ofis",
-      "id": "1",
-      "roomStyle": "styleRoomId1"
+      "roomStyle": "styleRoomId1",
+      "id": "1"
     },
     {
       "roomNo": "2",
@@ -88,16 +88,16 @@
       "sahe": "67,00",
       "roomType": "Ofis",
       "id": "10",
-      "roomStyle":"styleRoomId10"
+      "roomStyle": "styleRoomId10"
     },
     {
       "roomNo": "21",
-      "company": "Akt zalı",
+      "company": "Konfrans zali",
       "owner": "",
       "sahe": "59 , 64",
       "roomType": "Ofis",
-      "id": "11",
-      "roomStyle": "styleRoomId11"
+      "roomStyle": "styleRoomId11",
+      "id": "11"
     },
     {
       "roomNo": "17",
@@ -168,8 +168,8 @@
       "owner": "",
       "sahe": "55,00",
       "roomType": "Ofis",
-      "id": "17",
-      "roomStyle": "styleRoomId17"
+      "roomStyle": "styleRoomId17",
+      "id": "17"
     },
     {
       "roomNo": "7",

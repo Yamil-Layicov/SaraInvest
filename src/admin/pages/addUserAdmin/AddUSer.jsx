@@ -30,7 +30,7 @@ const AddUSer = () => {
       id: nanoid(),
       name,
       email,
-      position,
+      position
     };
 
       if (userPosData.position !== "admin") {

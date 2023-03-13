@@ -15,6 +15,7 @@ const RoomEdit = () => {
       setOwner(resp.owner);
       setSahe(resp.sahe);
       setRoomType(resp.roomType);
+      setRoomStyle(resp.roomStyle)
     }).catch((err) => {
         console.log(err.message);
     })
@@ -25,12 +26,13 @@ const RoomEdit = () => {
   const [owner, setOwner] = useState("");
   const [sahe, setSahe] = useState('');
   const [roomType, setRoomType] = useState('');
+  const [roomStyle,setRoomStyle] = useState('');
 
   const navigate = useNavigate();
 
   const handlesubmit = (e) => {
     e.preventDefault();
-    const roomData = { roomNo, company, owner, sahe, roomType };
+    const roomData = { roomNo, company, owner, sahe, roomType,roomStyle };
 
     fetch("http://localhost:3001/Mertebe-1/" + roomid,{
       method:"PUT",
