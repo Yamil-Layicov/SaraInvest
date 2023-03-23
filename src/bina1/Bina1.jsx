@@ -1,7 +1,7 @@
 import style from "./Bina1.module.css";
 import { Link, Outlet } from "react-router-dom";
 import "./allFloor.css";
-import { useState } from "react";
+import { useState,useRef } from "react";
 import { useSelector } from "react-redux";
 
 const Bina1 = () => {
@@ -13,23 +13,23 @@ const Bina1 = () => {
         <div className={style.leftContent}>
           <div className={style.leftHeaderContent}>
             <Link
-              style={{ textDecoration: "none", color: "gray" }}
+              style={{ textDecoration: "none" }}
               to="/Bina-1"
             >
               <span className={style.linkStyle}>MƏRTƏBƏ-1</span>
             </Link>
             <Link
               className={style.linkStyle}
-              style={{ textDecoration: "none", margin: "0 3%", color: "gray" }}
+              style={{ textDecoration: "none", margin: "0 3%" }}
               to="/Bina-1/mertebeIki"
             >
               <span className={style.linkStyle}>MƏRTƏBƏ-2</span>
             </Link>
             <Link
               className={style.linkStyle}
-              style={{ textDecoration: "none", color: "gray" }}
+              style={{ textDecoration: "none" }}
               to="/Bina-1/mertebeUc"
-            >
+            > 
               <span className={style.linkStyle}>MƏRTƏBƏ-3</span>
             </Link>
           </div>

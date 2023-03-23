@@ -15,8 +15,8 @@
       "owner": "",
       "sahe": "375,00",
       "roomType": "Ofis",
-      "id": "3",
-      "roomStyle": "styleRoomId3"
+      "roomStyle": "styleRoomId3",
+      "id": "3"
     },
     {
       "roomNo": "1",
@@ -87,8 +87,8 @@
       "owner": "",
       "sahe": "67,00",
       "roomType": "Ofis",
-      "id": "10",
-      "roomStyle": "styleRoomId10"
+      "roomStyle": "styleRoomId10",
+      "id": "10"
     },
     {
       "roomNo": "21",
@@ -279,21 +279,9 @@
     },
     {
       "name": "Elxan",
-      "email": "elxan@gmail.com",
+      "email": "elxan@mail.ru",
       "position": "manager",
-      "id": "CNpxhJFxobv50g0yGQUdy"
-    },
-    {
-      "name": "Cefer",
-      "email": "cefer@mail.ru",
-      "position": "manager",
-      "id": "iCaY9SgrT-5NSjE5T0aA2"
-    },
-    {
-      "name": "Elcan",
-      "email": "elcan@mail.ru",
-      "position": "admin",
-      "id": "Jxs7pWldsJv4HKgKdvj99"
+      "id": "6op9AbDziBDS0ZJDgqgGr"
     }
   ]
 }

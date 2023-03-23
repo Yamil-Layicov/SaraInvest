@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LoginPage from "./login/LoginPage";
+import LoginPage from "./mainLogin/LoginPage";
 import { Routes, Route } from "react-router-dom";
 import MainPage from "./main/MainPage";
 import Selector from "./selector/Selector";
@@ -19,10 +19,14 @@ import RoomEdit from "./admin/pages/floor1/FloorOneEdit";
 import MertebeBir from './bina1/floorOne/MertebeBir'
 import MertebeIki from "./bina1/floorTwo/MertebeIki";
 import MertebeUc from "./bina1/floorThree/MertebeUc";
+import AllBuilding from "./allBuildings/AllBuilding";
 
 export const BuildContext = createContext();
 
+
 const App = () => {
+const [authUser,setAuthUser] = useState(false)
+
   const [state, setState] = useState({
     buildList: data,
     buildText: "",
@@ -36,10 +40,11 @@ const App = () => {
   return (
     <BuildContext.Provider value={{ state, addToBuildText }}>
       <div>
-        <Routes>
-          <Route path="/" element={<LoginPage />} />
-          <Route path="/selector" element={<Selector />} />
-          <Route path="/main" element={<MainPage />} />
+         <Routes>
+          <Route path="/" element={<LoginPage setAuthUser={setAuthUser} />} />
+            <Route path="/selector" element={<Selector />} />
+          <Route path="/maina" element={<MainPage/>} />
+          <Route path="/main" element={<AllBuilding/>} />
           <Route path="/parametr" element={<Parmetr />} />
           <Route path="/Bina-1" element={<Bina1 />}>
             <Route index={true} element={<MertebeBir/>}/>
@@ -56,7 +61,6 @@ const App = () => {
             <Route path="addUser" element={<AddUSer />} />
           </Route>
           <Route path="/adminLogin" element={<AdminLogin />} />
-          
         </Routes>
       </div>
     </BuildContext.Provider>

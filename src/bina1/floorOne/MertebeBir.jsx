@@ -25,9 +25,9 @@ const MertebeBir = () => {
     <div>
       {floorOneData.map((data) => (
         <div
-          style={{ boxShadow: data.company === "" && "inset 0px 0px 16px 1px  red"}}
+          // style={{ boxShadow: data.company === "" && "inset 0px 0px 16px 1px  red"}}
           onClick={() => handleRoomDetail(data)}
-          className={`${data.roomStyle} ${data.id === roomStyleId && "roomStyleClickId"}`}
+          className={`${data.roomStyle} ${data.id === roomStyleId && "roomStyleClickId"} ${data.company === "" && "armudlar"}`}
           key={data.id}
         >
           <div style={{ paddingLeft: "2px"}}>{data.roomNo}</div>

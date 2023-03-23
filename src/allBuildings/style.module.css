@@ -1,0 +1,76 @@
+.mainContnet{
+    display: flex;
+    justify-content: center;
+}
+
+.leftContnet{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rightContnet{
+    width: 20%;
+    position: relative;
+}
+
+.imgContent{
+    width: 20%;
+    position: relative;
+    border: 1px solid black;
+}
+
+
+.imgContent img{
+    width: 100%;
+}
+
+
+.buildDiv{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 24%;
+    height: 16%;
+    border-radius: 100%;
+    background-color: yellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.buildDiv:hover{
+    background-color: rgb(176, 200, 23);
+    cursor: pointer;
+}
+
+.nextBtn{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.nextBtn:hover{
+    box-shadow: rgb(116, 116, 116) 0px 5px 15px;
+}
+
+.nextBuildImg{
+    position: absolute;
+    bottom: 33%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}   

@@ -205,4 +205,12 @@
     cursor: pointer;
 }
 
+.armudlar{
+    box-shadow:inset 0px 0px 16px 11px  red;
+    animation: mymove 2s infinite;
+}
 
+@keyframes mymove {
+    0% {box-shadow: inset 0px 0px 2px 2px  red;}
+    100% {box-shadow: inset 0px 0px 16px 11px  red;}
+}
